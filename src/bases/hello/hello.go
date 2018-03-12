@@ -1,10 +1,15 @@
 package main
 
 import (
-	"os"
 	"fmt"
+	"os"
 )
 
-func main(){
-	fmt.Printf("Hello, %s", os.Args[1])
+func main() {
+	var name string = "World"
+	if len(os.Args) > 1 {
+		name = os.Args[1]
+	}
+
+	fmt.Printf("Hello, %s", name)
 }
