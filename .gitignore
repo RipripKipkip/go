@@ -1,0 +1,8 @@
+# Global
+.*.swp
+.DS_Store
+
+# Go
+/src/github.com
+/src/golang.com
+/src/gsourcegraph.com
